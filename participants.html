@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Participants — SV Magazine</title>
+  <meta name="description" content="Become a participant in SV Magazine — share your story with a premium audience of professionals and creatives.">
+  <link rel="stylesheet" href="css/style.css?v=5">
+  <link rel="preload" as="image" href="pictures/backgroud1.jpg">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="header__logo">
+        <img src="pictures/svmediagrouplogo.png" alt="SV Life Media Group">
+      </a>
+      <nav class="header__nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="magazines.html">Our Magazines</a>
+        <a href="advertisers.html">For Advertisers</a>
+        <a href="participants.html">For Participants</a>
+        <a href="contacts.html">Contacts</a>
+      </nav>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <h1>For Participants</h1>
+    <p>Be featured in SV Magazine — tell your story to the world</p>
+  </section>
+
+  <!-- Packages -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title fade-in">Participation Packages</h2>
+      <p class="section__subtitle fade-in">Select the package that best fits your goals. Each includes professional content creation and publication.</p>
+
+      <div class="packages-grid">
+        <div class="package-card fade-in">
+          <h3 class="package-card__title">Standard</h3>
+          <p class="package-card__desc">Essential media package for promotion and image building.</p>
+          <ul class="package-card__features">
+            <li>Editorial article developed with a professional copywriter and designer</li>
+            <li>Publication in SV Life Magazine</li>
+            <li>Feature placement on the official SV Life Media Group website</li>
+            <li>Publication on the official SV Magazine Instagram account</li>
+          </ul>
+          <div class="package-card__price">430 &euro; <span>+ 13% agency commission</span></div>
+          <button class="btn btn--outline" data-open-modal>Learn More</button>
+        </div>
+        <div class="package-card package-card--featured fade-in">
+          <h3 class="package-card__title">Premium</h3>
+          <p class="package-card__desc">Enhanced image package with elements of status and recognition.</p>
+          <ul class="package-card__features">
+            <li>Everything included in the Standard package</li>
+            <li>Ceremonial award of the exclusive SV Life 2026 branded statuette</li>
+          </ul>
+          <div class="package-card__price">1 300 &euro; <span>+ 13% agency commission</span></div>
+          <button class="btn btn--primary" data-open-modal>Learn More</button>
+        </div>
+        <div class="package-card fade-in">
+          <h3 class="package-card__title">Exclusive</h3>
+          <p class="package-card__desc">Exclusive package for brands and individuals focused on international presence and high-end positioning.</p>
+          <ul class="package-card__features">
+            <li>Everything included in the Standard and Premium packages</li>
+            <li>Accreditation and participation at the Cannes Film Festival 2026</li>
+          </ul>
+          <div class="package-card__price">3 000 &euro; <span>+ 13% agency commission</span></div>
+          <button class="btn btn--outline" data-open-modal>Learn More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Participate -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section__title fade-in">Why Become a Participant</h2>
+      <p class="section__subtitle fade-in">SV Magazine gives professionals and creatives a stage to showcase their expertise, brand, and unique story to an international audience.</p>
+
+      <div class="values-grid">
+        <div class="value-card fade-in">
+          <div class="value-card__icon">&#128240;</div>
+          <h3 class="value-card__title">Your Story in Print</h3>
+          <p class="value-card__text">A professionally crafted feature article about you and your work, published in a premium print edition distributed internationally.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-card__icon">&#128247;</div>
+          <h3 class="value-card__title">Professional Photoshoot</h3>
+          <p class="value-card__text">High-quality photography that captures your brand essence, included as part of the participation package.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-card__icon">&#128640;</div>
+          <h3 class="value-card__title">Brand Exposure</h3>
+          <p class="value-card__text">Reach new audiences through print distribution, digital editions, and social media promotion across our channels.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pre-footer CTA -->
+  <section class="pre-footer">
+    <div class="container" style="text-align: center;">
+      <h2 class="section__title fade-in">Ready to Be Featured?</h2>
+      <p class="section__subtitle fade-in">Contact our manager to discuss your participation and find the perfect package.</p>
+      <div class="fade-in">
+        <button class="btn btn--primary" data-open-modal>Contact Manager</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky CTA -->
+  <div class="sticky-cta">
+    <button class="btn btn--primary" data-open-modal>Contact Manager</button>
+  </div>
+
+  <!-- Contact Modal -->
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal">
+      <button class="modal__close">&times;</button>
+      <h3 class="modal__title">Get in Touch</h3>
+      <form id="modalContactForm" class="contact-form">
+        <div class="form-group">
+          <label for="modal-name">Your Name</label>
+          <input type="text" id="modal-name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="modal-email">Email</label>
+          <input type="email" id="modal-email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="modal-phone">Phone</label>
+          <input type="tel" id="modal-phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="modal-message">Message</label>
+          <textarea id="modal-message" name="message" rows="4"></textarea>
+        </div>
+        <div class="g-recaptcha" data-sitekey="6LeI0FgsAAAAAKFrxG4qWSMa0D7yfPoVMJZ-pQ_y"></div>
+        <button type="submit" class="btn btn--primary" style="width: 100%;">Send Message</button>
+        <div class="form-message"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h4 class="footer__title">SV Magazine</h4>
+          <p style="color: rgba(255,255,255,0.7); font-size: 14px;">A new moodboard of life.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Navigation</h4>
+          <div class="footer__links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="magazines.html">Our Magazines</a>
+            <a href="advertisers.html">For Advertisers</a>
+            <a href="participants.html">For Participants</a>
+            <a href="contacts.html">Contacts</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__title">Contact</h4>
+          <div class="footer__links">
+            <a href="tel:+48731459516">+48 731 459 516</a>
+            <a href="mailto:svatelierpoland@gmail.com">svatelierpoland@gmail.com</a>
+          </div>
+          <div class="footer__social" style="margin-top: 15px;">
+            <a href="https://www.instagram.com/_sv_magazine_" target="_blank" rel="noopener" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2026 SV Magazine. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit" async defer></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

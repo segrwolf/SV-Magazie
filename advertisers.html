@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For Advertisers — SV Magazine</title>
+  <meta name="description" content="Advertise in SV Magazine — reach an elite audience of professionals and creatives through premium print.">
+  <link rel="stylesheet" href="css/style.css?v=5">
+  <link rel="preload" as="image" href="pictures/backgroud1.jpg">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="header__logo">
+        <img src="pictures/svmediagrouplogo.png" alt="SV Life Media Group">
+      </a>
+      <nav class="header__nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="magazines.html">Our Magazines</a>
+        <a href="advertisers.html">For Advertisers</a>
+        <a href="participants.html">For Participants</a>
+        <a href="contacts.html">Contacts</a>
+      </nav>
+      <div class="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <h1>For Advertisers</h1>
+    <p>Reach a premium audience through the pages of SV Magazine</p>
+  </section>
+
+  <!-- Packages -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title fade-in">Advertising Packages</h2>
+      <p class="section__subtitle fade-in">Choose the package that fits your goals. Contact us for detailed pricing and custom solutions.</p>
+
+      <div class="packages-grid">
+        <div class="package-card fade-in">
+          <h3 class="package-card__title">Basic</h3>
+          <p class="package-card__desc">Brand Strategy</p>
+          <ul class="package-card__features">
+            <li>Article publication in SV Life magazine, website, and official Instagram</li>
+            <li>Full brand analysis and uniqueness assessment</li>
+            <li>Basic target audience analysis</li>
+            <li>Brief brand promotion strategy</li>
+          </ul>
+          <div class="package-card__price">500 &euro; <span>+ 13% agency commission</span></div>
+          <button class="btn btn--outline" data-open-modal>Get Details</button>
+        </div>
+        <div class="package-card package-card--featured fade-in">
+          <h3 class="package-card__title">Premium</h3>
+          <p class="package-card__desc">Brand Marketing Strategy — 6 months</p>
+          <ul class="package-card__features">
+            <li>Article publication in international magazines, SV Life website, and official Instagram</li>
+            <li>Branded merchandise selection as gift products</li>
+            <li>Event participation</li>
+            <li>Social media and search engine promotion</li>
+            <li>Targeted advertising through independent bloggers</li>
+          </ul>
+          <div class="package-card__price">5 500 &euro; <span>+ 13% agency commission</span></div>
+          <button class="btn btn--primary" data-open-modal>Get Details</button>
+        </div>
+        <div class="package-card fade-in">
+          <h3 class="package-card__title">Luxury</h3>
+          <p class="package-card__desc">Startup Brand Development Strategy — 12+ months</p>
+          <ul class="package-card__features">
+            <li>Target audience analysis and formation</li>
+            <li>Step-by-step brand promotion schemes</li>
+            <li>Creative solutions development</li>
+            <li>Annual strategic development plan</li>
+            <li>360&deg; brand analysis</li>
+            <li>Turnkey branded merchandise development</li>
+            <li>Strategic materials and production solutions search</li>
+            <li>Digital solutions and promotion tools</li>
+          </ul>
+          <div class="package-card__price">from 13 000 &euro; <span>+ 13% agency commission</span></div>
+          <button class="btn btn--outline" data-open-modal>Get Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Advertise -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section__title fade-in">Why Advertise With Us</h2>
+      <p class="section__subtitle fade-in">SV Magazine offers a unique opportunity to present your brand to a curated audience of professionals, entrepreneurs, and creatives who value quality.</p>
+
+      <div class="values-grid">
+        <div class="value-card fade-in">
+          <div class="value-card__icon">&#128214;</div>
+          <h3 class="value-card__title">Premium Print</h3>
+          <p class="value-card__text">Your advertisement appears in a high-quality print edition — a tangible, lasting presence that digital ads cannot match.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-card__icon">&#127919;</div>
+          <h3 class="value-card__title">Targeted Audience</h3>
+          <p class="value-card__text">Our readers are professionals and entrepreneurs — the decision-makers you want to reach with your brand message.</p>
+        </div>
+        <div class="value-card fade-in">
+          <div class="value-card__icon">&#127760;</div>
+          <h3 class="value-card__title">Global Reach</h3>
+          <p class="value-card__text">SV Magazine is distributed internationally, giving your brand exposure across multiple markets and countries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pre-footer CTA -->
+  <section class="pre-footer">
+    <div class="container" style="text-align: center;">
+      <h2 class="section__title fade-in">Ready to Advertise?</h2>
+      <p class="section__subtitle fade-in">Contact our manager to discuss the best option for your brand.</p>
+      <div class="fade-in">
+        <button class="btn btn--primary" data-open-modal>Contact Manager</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky CTA -->
+  <div class="sticky-cta">
+    <button class="btn btn--primary" data-open-modal>Contact Manager</button>
+  </div>
+
+  <!-- Contact Modal -->
+  <div class="modal-overlay" id="contactModal">
+    <div class="modal">
+      <button class="modal__close">&times;</button>
+      <h3 class="modal__title">Get in Touch</h3>
+      <form id="modalContactForm" class="contact-form">
+        <div class="form-group">
+          <label for="modal-name">Your Name</label>
+          <input type="text" id="modal-name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="modal-email">Email</label>
+          <input type="email" id="modal-email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="modal-phone">Phone</label>
+          <input type="tel" id="modal-phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="modal-message">Message</label>
+          <textarea id="modal-message" name="message" rows="4"></textarea>
+        </div>
+        <div class="g-recaptcha" data-sitekey="6LeI0FgsAAAAAKFrxG4qWSMa0D7yfPoVMJZ-pQ_y"></div>
+        <button type="submit" class="btn btn--primary" style="width: 100%;">Send Message</button>
+        <div class="form-message"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div>
+          <h4 class="footer__title">SV Magazine</h4>
+          <p style="color: rgba(255,255,255,0.7); font-size: 14px;">A new moodboard of life.</p>
+        </div>
+        <div>
+          <h4 class="footer__title">Navigation</h4>
+          <div class="footer__links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="magazines.html">Our Magazines</a>
+            <a href="advertisers.html">For Advertisers</a>
+            <a href="participants.html">For Participants</a>
+            <a href="contacts.html">Contacts</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__title">Contact</h4>
+          <div class="footer__links">
+            <a href="tel:+48731459516">+48 731 459 516</a>
+            <a href="mailto:svatelierpoland@gmail.com">svatelierpoland@gmail.com</a>
+          </div>
+          <div class="footer__social" style="margin-top: 15px;">
+            <a href="https://www.instagram.com/_sv_magazine_" target="_blank" rel="noopener" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        &copy; 2026 SV Magazine. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit" async defer></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

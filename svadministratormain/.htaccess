@@ -1,0 +1,15 @@
+# Deny access to all files by default
+Order Deny,Allow
+Deny from all
+
+# Allow only PHP files to be executed (accessed via browser)
+<FilesMatch "\.php$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Block direct access to sensitive files
+<FilesMatch "\.(json|log|htaccess|htpasswd)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>

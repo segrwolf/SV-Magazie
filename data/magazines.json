@@ -1,0 +1,58 @@
+[
+  {
+    "id": 8,
+    "title": "SV Magazine — Issue 8",
+    "year": "2026",
+    "cover": "https://svatelier.org/wp-content/uploads/2026/01/SCR-20260107-kwqq.jpeg",
+    "pdf": "https://svatelier.org/wp-content/uploads/2026/01/SVAtelierMagazine8-2026.pdf"
+  },
+  {
+    "id": 7,
+    "title": "SV Magazine — 2025 Preview",
+    "year": "2025",
+    "cover": "https://svatelier.org/wp-content/uploads/2025/03/SCR-20250311-lnes.jpeg",
+    "pdf": "https://svatelier.org/wp-content/uploads/2025/03/SV-Atelier-–-Magazine-2025-Preview.pdf"
+  },
+  {
+    "id": 6,
+    "title": "SV Magazine — 2024",
+    "year": "2024",
+    "cover": "https://svatelier.org/wp-content/uploads/2024/11/SV-Atelier2024.jpg",
+    "pdf": "https://svatelier.org/wp-content/uploads/2024/11/SV-Atelier2024.pdf"
+  },
+  {
+    "id": 5,
+    "title": "SV Magazine — Issue 6",
+    "year": "2024",
+    "cover": "https://svatelier.org/wp-content/uploads/2024/04/SCR-20240401-mnoz-2-5.jpg",
+    "pdf": "https://svatelier.org/wp-content/uploads/2024/04/SVAtelierMagazine6.pdf"
+  },
+  {
+    "id": 4,
+    "title": "SV Magazine — October 2023",
+    "year": "2023",
+    "cover": "https://svatelier.org/wp-content/uploads/2023/10/journal4-1.jpg",
+    "pdf": "https://svatelier.org/wp-content/uploads/SVmagazineoct23.pdf"
+  },
+  {
+    "id": 3,
+    "title": "SV Magazine — Preview 2",
+    "year": "2022",
+    "cover": "https://svatelier.org/wp-content/uploads/2022/09/svatelier3.jpg",
+    "pdf": "https://svatelier.org/wp-content/uploads/2022/09/SV-Atelier-–-Magazine-Preview-2.pdf"
+  },
+  {
+    "id": 2,
+    "title": "SV Magazine — Issue 2",
+    "year": "2021",
+    "cover": "https://svatelier.org/wp-content/uploads/2021/12/journal-2.jpg",
+    "pdf": "https://svatelier.org/wp-content/uploads/2021/12/SV-Final-Preview.pdf"
+  },
+  {
+    "id": 1,
+    "title": "SV Magazine — Issue 1",
+    "year": "2021",
+    "cover": "https://svatelier.org/wp-content/uploads/2021/12/Screenshot-2021-12-29-at-15.48.24.jpg",
+    "pdf": "https://svatelier.org/wp-content/uploads/2021/10/SV-Atelier-–-Magazine.pdf"
+  }
+]
