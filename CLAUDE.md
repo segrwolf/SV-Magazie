@@ -6,6 +6,8 @@ Website for an elite print magazine. A premium presentation site showcasing the 
 - **Type**: Multi-page marketing/presentation website
 - **Language**: English only (for now)
 - **Target audience**: Advertisers, potential participants, readers
+- **Current Domain**: https://svlifegroup.com (as of 2026-02-02)
+- **Previous Domain**: https://svateliermagazine.com (301 redirects to new domain)
 
 ## Site Structure
 
@@ -131,3 +133,49 @@ Reference site: https://svatelier.org (match this style)
 
 ## Notes
 - All magazine issues to be stored as PDF files
+
+---
+
+## Project History & Current Status
+
+### Branding Evolution
+- **Original Name**: SV Magazine
+- **Current Brand**: SV Life / SV Life Media Group
+- **Date Changed**: 2026-02-02
+
+### Domain Migration
+- **Old Domain**: svateliermagazine.com (301 redirects to new domain)
+- **Current Domain**: svlifegroup.com (live since 2026-02-02)
+- **Hosting**: Server 91.234.33.250, user: seoport7
+- **Web Root**: /www/svlifegroup.com
+
+### Latest Updates (2026-02-02)
+1. Added new magazine issue: SV Magazine — 2026 Print Edition
+2. Added "Mission of SV Life" section to About page
+3. Rebranded from "SV Magazine" to "SV Life" across all pages
+4. Updated footer branding to "SV Life Media Group"
+5. Migrated website to new domain svlifegroup.com
+6. Set up 301 redirect from old domain
+
+### Magazine Catalog
+Current count: **9 issues** (2021-2026)
+- Latest: SV Magazine — 2026 Print Edition (January 2026)
+- All PDFs hosted on svatelier.org
+- Covers stored as external URLs
+
+### Key Contacts
+- Phone: +48 731 459 516
+- Email: svatelierpoland@gmail.com
+- Instagram: @_sv_magazine_
+
+### Technical Stack
+- Static HTML/CSS/JavaScript
+- PHP backend for forms and admin
+- JSON data storage (no database)
+- Admin panel: /svadministratormain/
+
+### Deployment
+- **Primary Domain**: https://svlifegroup.com
+- **Old Domain Redirect**: https://svateliermagazine.com → https://svlifegroup.com
+- **FTP Access**: 91.234.33.250
+- **Last Deployed**: 2026-02-02
