@@ -179,3 +179,9 @@ Current count: **9 issues** (2021-2026)
 - **Old Domain Redirect**: https://svateliermagazine.com → https://svlifegroup.com
 - **FTP Access**: 91.234.33.250
 - **Last Deployed**: 2026-02-02
+
+### reCAPTCHA Configuration
+- **Site Key**: 6LcTFF4sAAAAAJIRnKab5KMbMKkVsVolFFVcY0V3
+- **Secret Key**: 6LcTFF4sAAAAAB4eklCRX-muT9I_s0RVLaBeHIsp
+- **Domain**: svlifegroup.com
+- **Updated**: 2026-02-02
