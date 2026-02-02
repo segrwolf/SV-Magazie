@@ -21,7 +21,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 }
 
 // reCAPTCHA verification
-$recaptchaSecret = '6LeI0FgsAAAAADW90cC8pMwEOwgJ_-Y7B9rNmKfU';
+$recaptchaSecret = '6LcTFF4sAAAAAB4eklCRX-muT9I_s0RVLaBeHIsp';
 $recaptchaResponse = $_POST['g-recaptcha-response'] ?? '';
 
 if (empty($recaptchaResponse)) {
